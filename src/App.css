@@ -1,38 +1,44 @@
-.App {
+body {
   text-align: center;
+  background-color: white;
+  background-size: cover;
+  height: 100vh;
+  padding: 7%;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  background-color: white;
+  padding: 5%;
+  min-width: fit-content;
+  min-height: fit-content;
+  box-sizing: border-box;
+  height: 590px;
+}
+.button {
+  padding: 10px;
+  width: 150px;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: 700;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* card for displaying contact */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.contact-list {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-flow: row wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.buttons {
+  display: flex;
+  justify-content: space-around;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.edit-button {
+  padding: 10px;
+  width: 100px;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: 700;
 }
